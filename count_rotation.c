@@ -1,4 +1,3 @@
-// Counts the number of rotations in a circularly sorted array (user input).
 #include <stdio.h>   
 
 int countRotations(int arr[], int n) {
