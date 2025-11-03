@@ -1,4 +1,5 @@
 #include <stdio.h>       // BINARY SEARCH IN ROTATED SORTED ARRAY
+#include <stdlib.h>
 
 int searchinRotatedArray(int arr[],int n,int target){
 	int low = 0 , high = n-1 ;
