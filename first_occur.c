@@ -26,6 +26,12 @@ int main(){
 	scanf("%d",&n);
 	
 	int *arr = (int*)malloc(n * sizeof(int));
+    // check for memory allocation failing 
+    if(arr == NULL){
+        printf("Memory allocation failed\n");
+        return -1;
+    }
+    
 	printf("Enter %d elements in sorted order:\n",n);
 	for(int i=0;i<n;i++){
 		scanf("%d",(arr + i));
